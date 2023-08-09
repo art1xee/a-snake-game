@@ -1,0 +1,19 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: gray;
+}
+
+.reload {
+    display: block;
+    margin: 0 auto;
+    text-align: right;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+
+    &:hover {
+        background-color: green;
+    }
+
+}
