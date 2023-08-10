@@ -43,7 +43,7 @@ function update() {
     };
 
     //styling a board
-    context.fillStyle = "black";
+    context.fillStyle = "#0D120E";
     context.fillRect(0, 0, board.width, board.height);
 
     //styling a food
@@ -54,8 +54,6 @@ function update() {
     if (snakeX == foodX && snakeY == foodY) {
         snakeBody.push([foodX, foodY]);
         score++;
-        velocityX += 1;
-        velocityY += 1;
         placeFood();
     };
 
