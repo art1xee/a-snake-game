@@ -11,8 +11,8 @@ let snakeY = blockSize * 5;
 
 let velocityX = 0;
 let velocityY = 0;
-//snake body
 
+//snake body
 let snakeBody = [];
 
 //food
